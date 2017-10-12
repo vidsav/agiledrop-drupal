@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display")
+
+$playfair-display: "Playfair Display", serif
+$black: black
+$witdhRow: 480px
+$widthColumn: 50%
+$fullWidth: 100%
+
+img
+  max-width: $fullWidth
+  height: auto
+
+header
+  position: fixed
+  top: 80px
+  height: 120px
+  width: $fullWidth
+  z-index: 1
+
+  @media screen and (max-width: 975px)
+    top: 30px
+
+  @media screen and (max-width: 1500px)
+    height: 140px
+
+  #block-adchallenge-branding
+    position: absolute
+    top: 10%
+    width: $widthColumn
+    margin: 0 auto
+
+    @media screen and (max-width: 600px)
+      top: 25%
+
+    img
+      position: relative
+      left: 30%
+      width: 50%
+
+      @media screen and (max-width: 1915px)
+        position: absolute
+        left: 40%
+
+  #block-adchallenge-main-menu
+    position: absolute
+    right: 0
+    top: 25%
+    width: $widthColumn
+
+    @media screen and (max-width: 600px)
+      top: 18%
+
+    .menu
+      position: relative
+      top: 20%
+      width: $widthColumn
+      margin: 0 auto
+
+      @media screen and (max-width: 1915px)
+        position: absolute
+        left: 0
+
+    .menu-item
+      float: left
+      margin-left: 20px
+      font-family: $playfair-display
+      font-size: 18px
+
+main
+  position: relative
+  margin-top: 150px
+  clear: both
+
+  @media screen and (max-width: 774px)
+    margin-top: 50px
+
+  .layout-content
+    width: $fullWidth
+    font-family: $playfair-display
+
+    #block-adchallenge-page-title
+      width: 80%
+
+    #block-adchallenge-local-tasks
+      width: 80%
+
+    #block-adchallenge-content
+      width: 80%
+
+      .text-formatted
+        width: $fullWidth
+
+      img
+        width: $fullWidth
+
+    .view-content
+      width: 90%
+      margin: 0 auto
+
+    .views-row
+      margin-left: 195px
+      width: 35%
+      height: 400px
+      margin-right: 10px
+      margin-bottom: 200px
+      float: left
+      font-family: $playfair-display
+
+      @media screen and (max-width: 1915px)
+        width: $widthColumn
+        margin-left: 350px
+
+      @media screen and (max-width: 719px)
+        margin-left: 100px
+        margin-top: 120px
+        min-width: 85%
+
+      @media screen and (max-width: 1500px)
+        margin-left: 80px
+
+      .text-formatted
+        width: $witdhRow
+
+        @media screen and (max-width: 620px)
+          width: 300px
+
+        @media screen and (max-width: 774px)
+          width: 300px
+
+.text-formatted
+  width: $witdhRow
+
+  @media screen and (max-width: 620px)
+    width: 300px
+
+  @media screen and (max-width: 774px)
+    width: 300px
+
+.quickedit-field
+  padding-top: 5px
+
+p
+  color: $black
+
+h2
+  color: $black
+
+footer
+  position: relative
+  width: $fullWidth
+  bottom: 0
+  height: 80px
+  background-color: #c4c4c4
+  clear: both
+
+  @media screen and (max-width: 400px)
+    height: 100px
+
+  nav
+    margin: 0 auto
+    width: 25%
+    height: 30px
+
+  .menu
+    position: relative
+    text-align: center
+
+  .menu-item
+    float: left
+    margin: 20px 0 0 50px
+    text-align: center
+    font-family: $playfair-display
+
+    @media screen and (max-width: 1332px)
+      margin: 5px 0 0 10px
+
+    @media screen and (max-width: 745px)
+      margin: 5px 0 0 3px
+
+.layout-sidebar-second
+  position: absolute
+  float: right
+  top: 0
+  right: 0
+  width: 20%
+  font-family: $playfair-display
+
+a
+  text-decoration: none
+  color: $black
